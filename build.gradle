@@ -5,7 +5,6 @@
 // 顶层构建文件，您可以在其中添加所有子项目/模块通用的配置选项。
 git 测试
 // https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#header
-adsfdasgadg
 // 构建脚本
 buildscript {
     // ext 是个map字段，存放基本数据类型
