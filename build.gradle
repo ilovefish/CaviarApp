@@ -3,7 +3,7 @@
 // 2. gradle 固定的构建阶段：初始化，配置，执行。 https://www.jianshu.com/p/4f0ff9bd2f62
 
 // 顶层构建文件，您可以在其中添加所有子项目/模块通用的配置选项。
-git 测试123
+git 测试
 // https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#header
 // 构建脚本
 buildscript {
