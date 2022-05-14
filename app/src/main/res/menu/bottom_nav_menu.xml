@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_qiangdan"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_qd" />
+
+    <item
+        android:id="@+id/navigation_paipai"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_pp" />
+
+    <item
+        android:id="@+id/navigation_ditu"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_fangyu"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_fy" />
+
+    <item
+        android:id="@+id/navigation_wode"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_wd" />
+
+</menu>

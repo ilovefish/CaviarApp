@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PaiPaiKotlin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_qd">抢单</string>
+    <string name="title_pp">拍拍</string>
+    <string name="title_dt">地图</string>
+    <string name="title_fy">房域</string>
+    <string name="title_wd">我的</string>
+</resources>
