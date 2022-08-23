@@ -3,7 +3,6 @@
 // 2. gradle 固定的构建阶段：初始化，配置，执行。 https://www.jianshu.com/p/4f0ff9bd2f62
 
 // 顶层构建文件，您可以在其中添加所有子项目/模块通用的配置选项。
-git 测试123455
 // https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#header
 // 构建脚本
 buildscript {
@@ -45,6 +44,7 @@ plugins {
     // https://developer.android.com/guide/navigation/navigation-getting-started
     id 'androidx.navigation.safeargs.kotlin' version '2.4.1' apply false
 }
+
 
 allprojects {
     //访问特定类型的任务

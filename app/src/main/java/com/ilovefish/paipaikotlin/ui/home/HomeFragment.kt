@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.ilovefish.paipaikotlin.R
 import com.ilovefish.paipaikotlin.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -31,6 +32,15 @@ class HomeFragment : Fragment() {
         val textView: TextView = binding.textHome
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
+        }
+
+        textView.setOnClickListener {
+            val transaction = parentFragmentManager.beginTransaction()
+            var fragment = FragmentDongFangHangKongMotionlayout.newInstance().also {
+                transaction
+                    .replace(R.id.nav_host_fragment_activity_main, it)
+                    .commitNow()
+            }
         }
         return root
     }

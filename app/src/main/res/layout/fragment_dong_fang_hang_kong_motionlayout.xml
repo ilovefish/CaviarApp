@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/ml_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:autoTransition="none"
+        app:layoutDuringTransition="ignoreRequest"
+        app:layoutDescription="@xml/scene_scroll_13">
+
+        <ImageView
+            android:id="@+id/iv_img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:layout_constraintBottom_toTopOf="@+id/iv_img_tv_test"
+            android:background="@android:color/holo_red_dark"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="我是测试的图片"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toTopOf="@+id/nestedScroll"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/iv_img_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_img">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="我是测试的分割线"
+                    tools:layout_editor_absoluteY="150dp" />
+
+
+                <TextView
+                    android:id="@+id/nestedScrollLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp"
+                    android:text="我是测试的分割线" />
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="我是测试的分割线"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_img"
+                    tools:layout_editor_absoluteY="150dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/tl_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/teal_200"
+                android:gravity="center"
+                app:menu="@menu/bottom_nav_menu"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/tl_toolbar_tv"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:textColor="@color/black"
+                android:text="Only鱼籽酱"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"/>
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/tl_toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@color/teal_200"-->
+<!--            android:gravity="center"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tl_toolbar_tv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Only鱼籽酱"-->
+<!--                android:textColor="@color/black" />-->
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</LinearLayout>
