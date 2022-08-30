@@ -18,7 +18,7 @@ buildscript {
     ext.kotlin_version = '1.6.10'
     ext.anko_version='0.10.8'
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:7.2.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         def nav_version = "2.4.1"
@@ -31,7 +31,7 @@ buildscript {
 plugins {
     // apply false语法告诉Gradle不要将插件应用于当前项目，然后在子项目的构建脚本中使用没有版本的plugins{}块
     // 将应用模块
-    id 'com.android.application' version '7.1.2' apply false
+    id 'com.android.application' version '7.2.1' apply false
     // https://developer.android.com/studio/projects/android-library?hl=zh-cn#groovy
     // 将应用模块转换为库模块
     id 'com.android.library' version '7.1.1' apply false
@@ -44,7 +44,6 @@ plugins {
     // https://developer.android.com/guide/navigation/navigation-getting-started
     id 'androidx.navigation.safeargs.kotlin' version '2.4.1' apply false
 }
-
 
 allprojects {
     //访问特定类型的任务
@@ -59,3 +58,8 @@ task clean(type: Delete) {
     println('clean task')
     delete rootProject.buildDir
 }
+
+/**
+ * 在多项目构建中，可以通过 subprojects{} 应用在子项目中，细节查看 subproject.gradle
+ */
+apply from: 'subproject.gradle'
