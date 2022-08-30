@@ -54,7 +54,6 @@ android {
 }
 
 dependencies {
-    implementation libs.cardview.test
     implementation libs.androidCoreKtx
     implementation libs.appcompat
     implementation libs.material
