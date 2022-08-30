@@ -17,7 +17,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.ilovefish.paipaikotlin"
+        applicationId "com.ilovefish.caviarapp"
         minSdk 21
         targetSdk 31
         versionCode 1

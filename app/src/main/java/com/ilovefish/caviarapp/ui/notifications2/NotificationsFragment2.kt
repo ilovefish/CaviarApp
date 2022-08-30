@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin.ui.notifications
+package com.ilovefish.caviarapp.ui.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.ilovefish.paipaikotlin.databinding.FragmentNotificationsBinding
+import com.ilovefish.caviarapp.databinding.FragmentNotificationsBinding
 
-class NotificationsFragment3 : Fragment() {
+class NotificationsFragment2 : Fragment() {
 
     private var _binding: FragmentNotificationsBinding? = null
 
@@ -23,7 +23,7 @@ class NotificationsFragment3 : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel3::class.java)
+            ViewModelProvider(this).get(NotificationsViewModel2::class.java)
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root

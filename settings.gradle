@@ -28,7 +28,7 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "PaiPaiKotlin"
+rootProject.name = "CaviarApp"
 include ':app'
 
 // 导入本地的moudle

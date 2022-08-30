@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin.ui.notifications
+package com.ilovefish.caviarapp.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

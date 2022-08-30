@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin.ui.home
+package com.ilovefish.caviarapp.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

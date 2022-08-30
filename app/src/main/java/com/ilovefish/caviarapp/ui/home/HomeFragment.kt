@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin.ui.home
+package com.ilovefish.caviarapp.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.ilovefish.paipaikotlin.R
-import com.ilovefish.paipaikotlin.databinding.FragmentHomeBinding
+import com.ilovefish.caviarapp.R
+import com.ilovefish.caviarapp.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin
+package com.ilovefish.caviarapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.ilovefish.paipaikotlin.ui.home
+package com.ilovefish.caviarapp.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,11 +8,8 @@ import android.widget.TextView
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.transition.Transition
-import androidx.transition.Transition.TransitionListener
 import com.ilovefish.caviarmvvm.ext.util.logd
-import com.ilovefish.paipaikotlin.R
-import com.ilovefish.paipaikotlin.databinding.FragmentDongFangHangKongMotionlayoutBinding
+import com.ilovefish.caviarapp.databinding.FragmentDongFangHangKongMotionlayoutBinding
 
 class FragmentDongFangHangKongMotionlayout : Fragment() {
 

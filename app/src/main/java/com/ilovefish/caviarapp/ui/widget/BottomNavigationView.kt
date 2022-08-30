@@ -1,11 +1,9 @@
-package com.ilovefish.paipaikotlin.ui.widget
+package com.ilovefish.caviarapp.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet
-import android.view.MenuItem
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
@@ -15,14 +13,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.AbstractComposeView
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.toColorInt
 import com.ilovefish.caviarmvvm.ext.util.logd
-import com.ilovefish.paipaikotlin.R
-import java.lang.Double.sum
+import com.ilovefish.caviarapp.R
 
 class BottomNavigationView @JvmOverloads constructor(
     context: Context,
