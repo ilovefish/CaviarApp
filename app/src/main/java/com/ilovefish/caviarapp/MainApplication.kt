@@ -7,6 +7,7 @@ import com.bumptech.glide.GlideBuilder
 import com.bumptech.glide.Registry
 import com.bumptech.glide.annotation.GlideModule
 import com.bumptech.glide.module.AppGlideModule
+import com.ilovefish.caviarmvvm.base.BaseApp
 
 
 // 用于初始化 Glide
@@ -49,7 +50,7 @@ open class MyAppGlideModule : AppGlideModule() {
     }
 }
 
-class MainApplication : Application() {
+class MainApplication : BaseApp() {
 
     override fun onCreate() {
         super.onCreate()
