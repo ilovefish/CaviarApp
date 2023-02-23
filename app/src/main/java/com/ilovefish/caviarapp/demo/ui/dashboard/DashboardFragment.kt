@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.ui.dashboard
+package com.ilovefish.caviarapp.demo.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater

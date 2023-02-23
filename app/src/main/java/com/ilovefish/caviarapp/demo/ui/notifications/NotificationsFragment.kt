@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.ui.notifications
+package com.ilovefish.caviarapp.demo.ui.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_qiangdan"
-        android:name="com.ilovefish.caviarapp.ui.home.HomeFragment"
+        android:name="com.ilovefish.caviarapp.demo.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_paipai"
-        android:name="com.ilovefish.caviarapp.ui.dashboard.DashboardFragment"
+        android:name="com.ilovefish.caviarapp.demo.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_ditu"
-        android:name="com.ilovefish.caviarapp.ui.notifications.NotificationsFragment"
+        android:name="com.ilovefish.caviarapp.demo.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 

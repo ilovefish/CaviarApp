@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.designmode.builder
+package com.ilovefish.caviarapp.designmode.component
 
 import com.ilovefish.caviarapp.designmode.component.Composite
 import com.ilovefish.caviarapp.designmode.component.Leaf

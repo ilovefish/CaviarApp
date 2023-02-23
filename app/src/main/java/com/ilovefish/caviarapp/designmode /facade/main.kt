@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.designmode.decorator
+package com.ilovefish.caviarapp.designmode.facade
 
 import com.ilovefish.caviarapp.designmode.facade.Facade
 

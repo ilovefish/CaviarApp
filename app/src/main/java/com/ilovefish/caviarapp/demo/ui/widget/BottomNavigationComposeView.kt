@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.ui.widget
+package com.ilovefish.caviarapp.demo.ui.widget
 
 import android.content.Context
 import android.util.AttributeSet

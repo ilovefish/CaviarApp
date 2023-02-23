@@ -1,13 +1,13 @@
-package com.ilovefish.caviarapp.ui.home
+package com.ilovefish.caviarapp.demo.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class NotificationsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is 抢单 Fragment"
+        value = "This is 地图 Fragment"
     }
     val text: LiveData<String> = _text
 }

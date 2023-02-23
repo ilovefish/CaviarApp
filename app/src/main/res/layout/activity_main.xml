@@ -24,7 +24,7 @@
             app:defaultNavHost="true"
             app:navGraph="@navigation/mobile_navigation" />
 
-        <com.ilovefish.caviarapp.ui.widget.BottomNavigationView
+        <com.ilovefish.caviarapp.demo.ui.widget.BottomNavigationView
             android:id="@+id/compose_nav_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

@@ -1,4 +1,4 @@
-package com.ilovefish.caviarapp.ui.dashboard
+package com.ilovefish.caviarapp.demo.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

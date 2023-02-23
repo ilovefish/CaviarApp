@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:gravity="center"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".demo.ui.home.HomeFragment">
 
 
 
